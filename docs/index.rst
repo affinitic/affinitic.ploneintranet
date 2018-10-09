@@ -1,0 +1,3 @@
+=======================affinitic.ploneintranet
+=======================
+User documentation
