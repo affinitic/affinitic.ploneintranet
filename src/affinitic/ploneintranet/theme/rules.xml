@@ -16,9 +16,10 @@
 
   <!-- … and deliver the ones from Plone -->
   <after theme-children="/html/head"
-         content="/html/head/title | /html/head/link | /html/head/style | /html/head/script | /html/head/meta" />
+         content="/html/head/title | /html/head/link[not(@rel='shortcut icon')] | /html/head/style | /html/head/script | /html/head/meta" />
   <after theme-children="/html/head">
     <link rel="stylesheet" type="text/css" href="/++theme++affinitic.ploneintranet/style/custom.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/++theme++affinitic.ploneintranet/images/favicon.ico" />
   </after>
 
   <!-- Add the globalstatusmessage viewlet. -->
