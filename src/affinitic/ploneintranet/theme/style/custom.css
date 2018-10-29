@@ -14,3 +14,48 @@ html body .suite-logo {
     height: 32px;
     padding: 0;
 }
+article h1,
+.pat-rich h1{
+    font-size: 1.8em;
+}
+.pat-rich p:first-child + h1{
+    display: inline-block;
+    max-width: calc(100% - 220px);
+}
+article h2,
+.pat-rich h2{
+    font-size: 1.6em;
+}
+.cms-item{
+    font-size: 0.8em;
+}
+.lib-groups .tile .content img,
+.pat-rich img{
+    max-width: none;
+    height: auto;
+}
+article table tr td:nth-child(2n+1),
+.pat-rich table tr td:nth-child(2n+1){
+    background-color: transparent;
+}
+.pat-rich table {
+    border-top: none;
+}
+.pat-rich table tr td{
+    border-bottom: none;
+    padding: 0.1em 0.5em;
+}
+.pat-rich table.listing {
+    border-top: #0098d4 1px solid;
+}
+.pat-rich table.listing tr td:nth-child(2n+1){
+    background-color: #efefef;
+}
+.pat-rich table.listing tr td{
+    border-bottom: #0098d4 1px solid;
+    padding: 0.1em 0.5em;
+}
+.cms-item.pat-rich figure.hero {
+    max-width: 200px;
+    float: right;
+}
