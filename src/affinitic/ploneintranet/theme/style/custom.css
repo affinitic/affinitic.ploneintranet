@@ -62,3 +62,6 @@ article table tr td:nth-child(2n+1),
 .news-block .item .functions{
     width: auto;
 }
+div#apps-listing div.app.disabled {
+    display: none;
+}
