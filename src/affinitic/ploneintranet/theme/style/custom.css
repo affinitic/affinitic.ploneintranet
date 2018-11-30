@@ -65,3 +65,6 @@ article table tr td:nth-child(2n+1),
 div#apps-listing div.app.disabled {
     display: none;
 }
+#document-content:not(.pat-modal) {
+    padding: 2rem 10%;
+}
